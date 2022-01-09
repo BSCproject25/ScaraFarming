@@ -35723,19 +35723,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 991px) {
   .u-header .u-menu-1 {
-    margin-top: 0;
-    margin-right: -50px;
-    margin-bottom: 60px;
+    margin: 0 auto 60px -50px;
   }
 }
-
+@media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 118px;
+  }
+}
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
     min-height: 105px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-bottom: 53px;
   }
 }
  .u-footer {
