@@ -35718,24 +35718,10 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-2 {
   font-size: 1rem;
 }
-
-.u-header .u-line-1 {
-  width: 1724px;
-  top: 0;
-  transform-origin: right center 0px;
-  position: absolute;
-  height: 6px;
-}
 .u-header .u-sheet-2 {
   min-height: 100px;
 }
-@media (max-width: 1199px) {
-  .u-header .u-line-1 {
-    width: 1536px;
-    transform-origin: left center 0px;
-    left: -275px;
-  }
-}
+
 
 @media (max-width: 991px) {
   .u-header .u-sheet-1 {
@@ -35751,19 +35737,16 @@ a.u-link.u-text-hover-grey-90:hover {
     font-size: calc(1em + 30px);
     padding: 15px 44px;
   }
-
-  .u-header .u-line-1 {
-    transform-origin: right center 0px;
-    height: 13px;
-    border-style: double;
-    width: auto;
-  }
 }
 
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 149px;
+  }
+
   .u-header .u-menu-1 {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 28px;
   }
 
   .u-header .u-file-icon-1 {
