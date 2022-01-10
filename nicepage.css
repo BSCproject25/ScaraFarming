@@ -35726,6 +35726,9 @@ a.u-link.u-text-hover-grey-90:hover {
   position: absolute;
   height: 6px;
 }
+.u-header .u-sheet-2 {
+  min-height: 100px;
+}
 @media (max-width: 1199px) {
   .u-header .u-line-1 {
     width: 1536px;
@@ -35733,6 +35736,7 @@ a.u-link.u-text-hover-grey-90:hover {
     left: -275px;
   }
 }
+
 @media (max-width: 991px) {
   .u-header .u-sheet-1 {
     min-height: 171px;
@@ -35753,39 +35757,51 @@ a.u-link.u-text-hover-grey-90:hover {
     top: 155px;
     transform-origin: right center 0px;
     left: -307px;
+    border-style: double;
   }
 }
+
 @media (max-width: 767px) {
   .u-header .u-menu-1 {
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .u-header .u-file-icon-1 {
     font-size: calc(1em + 28px);
     color: rgb(255, 169, 26) !important;
-    padding: 14px 34px;
+    padding: 14px 78px;
   }
 
   .u-header .u-line-1 {
-    width: 1154px;
-    transform-origin: left center 0px;
-    left: -275px;
+    width: 875px;
+    left: -184px;
   }
 }
+
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 151px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+
   .u-header .u-file-icon-1 {
-    color: rgb(96, 125, 139) !important;
-    padding-left: 40px;
-    padding-right: 40px;
+    font-size: calc(1em + 18px);
+    color: rgb(130, 177, 255) !important;
+    padding: 9px 50px;
   }
 
   .u-header .u-line-1 {
-    transform-origin: right center 0px;
-    top: 151px;
+    top: 124px;
     left: -298px;
     width: 1017px;
   }
 }
+
  .u-footer {
   background-image: none;
 }
