@@ -35695,16 +35695,15 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
- .u-header {
+.u-header .u-sheet-1 {
   min-height: 188px;
 }
 
 .u-header .u-menu-1 {
-  margin: 59px auto 60px calc(((100% - 1140px) / 2) + 383px);
+  margin: 59px auto 60px 383px;
 }
 
 .u-header .u-file-icon-1 {
-  background-image: none;
   font-size: calc(1em + 4px);
   padding: 2px 0;
 }
@@ -35721,82 +35720,70 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-line-1 {
-  width: 1427px;
+  width: 1724px;
   top: 0;
-  transform-origin: left center 0px;
+  transform-origin: right center 0px;
   position: absolute;
-  left: auto;
-  height: 3px;
-  right: -127px;
+  height: 6px;
 }
 @media (max-width: 1199px) {
   .u-header .u-line-1 {
-    width: 1144px;
+    width: 1536px;
+    transform-origin: left center 0px;
+    left: -275px;
   }
 }
 @media (max-width: 991px) {
-   .u-header {
-    min-height: 138px;
+  .u-header .u-sheet-1 {
+    min-height: 171px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: 12px;
     margin-left: auto;
-    margin-bottom: 12px;
+    margin-bottom: 36px;
   }
 
   .u-header .u-file-icon-1 {
     font-size: calc(1em + 30px);
-    padding: 15px 386px;
+    padding: 15px 44px;
   }
 
   .u-header .u-line-1 {
-    width: 939px;
-    top: 139px;
+    width: 1401px;
+    top: 155px;
     transform-origin: right center 0px;
-    left: -91px;
-    margin-top: 0;
+    left: -307px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-menu-1 {
-    margin-top: 13px;
-    margin-bottom: 13px;
+    margin-bottom: 40px;
   }
 
   .u-header .u-file-icon-1 {
     font-size: calc(1em + 28px);
     color: rgb(255, 169, 26) !important;
-    padding: 14px 210px;
+    padding: 14px 34px;
   }
 
   .u-header .u-line-1 {
-    width: 835px;
+    width: 1154px;
     transform-origin: left center 0px;
-    height: 6px;
+    left: -275px;
   }
 }
 @media (max-width: 575px) {
-   .u-header {
-    min-height: 137px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: 43px;
-    margin-bottom: 26px;
-  }
-
   .u-header .u-file-icon-1 {
-    font-size: calc(1em + 24px);
     color: rgb(96, 125, 139) !important;
-    padding: 12px 56px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .u-header .u-line-1 {
     transform-origin: right center 0px;
-    left: -88px;
-    top: 137px;
-    width: 590px;
+    top: 151px;
+    left: -298px;
+    width: 1017px;
   }
 }
  .u-footer {
