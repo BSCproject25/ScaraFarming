@@ -35753,11 +35753,10 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-line-1 {
-    width: 1401px;
-    top: 155px;
     transform-origin: right center 0px;
-    left: -307px;
+    height: 13px;
     border-style: double;
+    width: auto;
   }
 }
 
@@ -35772,11 +35771,6 @@ a.u-link.u-text-hover-grey-90:hover {
     color: rgb(255, 169, 26) !important;
     padding: 14px 78px;
   }
-
-  .u-header .u-line-1 {
-    width: 875px;
-    left: -184px;
-  }
 }
 
 @media (max-width: 575px) {
@@ -35784,21 +35778,10 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 151px;
   }
 
-  .u-header .u-menu-1 {
-    margin-top: 36px;
-    margin-bottom: 36px;
-  }
-
   .u-header .u-file-icon-1 {
     font-size: calc(1em + 18px);
     color: rgb(130, 177, 255) !important;
     padding: 9px 50px;
-  }
-
-  .u-header .u-line-1 {
-    top: 124px;
-    left: -298px;
-    width: 1017px;
   }
 }
 
