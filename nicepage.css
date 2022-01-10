@@ -35782,13 +35782,14 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: 25px;
-    margin-bottom: 32px;
+    margin-top: 43px;
+    margin-bottom: 26px;
   }
 
   .u-header .u-file-icon-1 {
-    font-size: calc(1em + 30px);
-    padding: 15px 142px;
+    font-size: calc(1em + 24px);
+    color: rgb(96, 125, 139) !important;
+    padding: 12px 56px;
   }
 
   .u-header .u-line-1 {
