@@ -35695,53 +35695,107 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
-.u-header .u-sheet-1 {
-  min-height: 118px;
+ .u-header {
+  min-height: 188px;
 }
 
 .u-header .u-menu-1 {
-  margin: 59px auto 23px;
+  margin: 59px auto 60px calc(((100% - 1140px) / 2) + 383px);
+}
+
+.u-header .u-file-icon-1 {
+  background-image: none;
+  font-size: calc(1em + 4px);
+  padding: 2px 0;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
+  background-image: none;
+  letter-spacing: 0px;
+  font-weight: 700;
 }
 
 .u-header .u-nav-2 {
   font-size: 1rem;
 }
-@media (max-width: 1199px) {
-  .u-header .u-sheet-1 {
-    min-height: 145px;
-  }
 
-  .u-header .u-menu-1 {
-    margin-bottom: 30px;
+.u-header .u-line-1 {
+  width: 1427px;
+  top: 0;
+  transform-origin: left center 0px;
+  position: absolute;
+  left: auto;
+  height: 3px;
+  right: -127px;
+}
+@media (max-width: 1199px) {
+  .u-header .u-line-1 {
+    width: 1144px;
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 90px;
+   .u-header {
+    min-height: 138px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: 41px;
-    margin-bottom: 13px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-bottom: 12px;
+  }
+
+  .u-header .u-file-icon-1 {
+    font-size: calc(1em + 30px);
+    padding: 15px 386px;
+  }
+
+  .u-header .u-line-1 {
+    width: 939px;
+    top: 139px;
+    transform-origin: right center 0px;
+    left: -91px;
+    margin-top: 0;
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-sheet-1 {
-    min-height: 92px;
+  .u-header .u-menu-1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
   }
 
-  .u-header .u-menu-1 {
-    margin-top: 28px;
-    margin-bottom: 28px;
+  .u-header .u-file-icon-1 {
+    font-size: calc(1em + 28px);
+    color: rgb(255, 169, 26) !important;
+    padding: 14px 210px;
+  }
+
+  .u-header .u-line-1 {
+    width: 835px;
+    transform-origin: left center 0px;
+    height: 6px;
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 84px;
+   .u-header {
+    min-height: 137px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: 25px;
+    margin-bottom: 32px;
+  }
+
+  .u-header .u-file-icon-1 {
+    font-size: calc(1em + 30px);
+    padding: 15px 142px;
+  }
+
+  .u-header .u-line-1 {
+    transform-origin: right center 0px;
+    left: -88px;
+    top: 137px;
+    width: 590px;
   }
 }
  .u-footer {
